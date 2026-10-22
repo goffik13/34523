@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "novahud",
+  "version": "${version}",
+  "name": "NovaHUD",
+  "description": "Stylish glowing HUD: watermark, target HUD, potions, armor, info.",
+  "authors": ["goffik13"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.novahud.NovaHudClient"] },
+  "mixins": ["novahud.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
